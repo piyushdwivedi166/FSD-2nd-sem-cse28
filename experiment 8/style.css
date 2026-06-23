@@ -1,0 +1,31 @@
+.body {
+    font-family:'Georgia', serif;
+    margin: 40px;
+
+}
+.container {
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 60px;
+   margin: 10px;
+}
+.card {
+    background-color: antiquewhite;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px black;
+    border: 2px solid blue;
+}
+.circle {
+    background-color: aqua;
+    font-weight: bold;
+    font-size: bold;
+    border-radius: 50%;
+    width: 100px;
+}
